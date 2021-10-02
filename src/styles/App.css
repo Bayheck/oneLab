@@ -1,0 +1,40 @@
+
+.container{
+    display:flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+}
+
+.post_grid{
+    display:grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-gap: 10px;
+}
+
+.post{
+    padding: 10px 16px 16px 16px;
+    cursor: pointer;
+}
+
+.post:hover{
+    box-shadow: 0px 2px 10px rgba(28, 24, 25, 0.1);
+}
+
+.post:hover .post_title{
+    color:#FF3333;
+}
+
+.post_title{
+    color: #2A81DD;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.post_body{
+    font-size: 16px;
+    line-height: 24px;
+}
